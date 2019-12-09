@@ -1,0 +1,25 @@
+{
+  "description" :  ["O que é o PCAccess? ",
+                    "PCAccess é  um  software  livre e de código aberto com o  objetivo de  permitir que pessoas ",
+                    "com deficiências físicas possam utilizar o computador pessoal. Utilizando um smartphone ",
+                    "Android como hardware auxiliar para a integração entre homem e máquina."
+                    ],
+  "connection" : ["Como conectar o computador e o smartphone? ",
+                  "Para conectar o computador pessoal e o smartphone basta que você abra o aplicativo e leia o ",
+                  "qrcode que será mostrado ao clicar no Menu Conexão. "],
+
+  "connection_mouse":["Como conectar o mouse (Módulo Raspberry)?",
+                      "Para conectar o Módulo Raspberry basta abrir o Menu Conexão, e clicar em Conectar Mouse.",
+                      "Ou se preferir no Menu Definições, deixe a opção Conectar o Mouse Automaticamente selecionada."],
+
+  "voice_control" : ["Como funciona o Controle por Voz? ",
+                      "O Controle  por Voz  permite que seja  executado comandos por voz que substituem o mouse ",
+                      "e o teclado. É ideal para digitação de textos em documentos, internet, redes sociais etc.",
+                      "Atenção! Cuidado ao falar senhas usando este recurso! "],
+
+  "voice_usage" : ["Como usar o Controle por Voz?",
+                  "O Controle por Voz deve serguir alguns padrões de comandos e ações a serem ditas para que",
+                  "o servidor consiga identificar o que se deseja executar. Um  comando do Controle de Voz é",
+                  "geralmente constituido por <Comando Principal> <Ação> <Parâmetros de Execução>."]
+
+}

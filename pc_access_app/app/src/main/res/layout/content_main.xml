@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layer"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gustavosmc.pcaccess.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:keepScreenOn="true">
+
+
+    <TextView
+        android:id="@+id/tvOutput"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tbConnect"
+        android:layout_width="332dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/connect"
+        android:textColor="@color/green_button_yes"
+        android:textOff="@string/connect"
+        android:textOn="@string/disconnect"
+        android:textSize="@dimen/size_descrition"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/selector_button_connect"
+        ></ToggleButton>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tvOutput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbConnect">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/voice_command"
+                android:textColor="@color/green_button_yes"
+                android:textSize="@dimen/size_descrition" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/stSpeech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/shape_switch_button"
+                    android:gravity="center"
+                    android:text="@string/on_off"
+                    android:textColor="@color/green_button_yes"
+                    android:textSize="@dimen/size_descrition"
+                    android:layout_marginBottom="1dp"/>
+
+                <ImageButton
+                    android:id="@+id/ibSpeech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/selector_button"
+                    app:srcCompat="@drawable/mic"
+                    tools:layout_editor_absoluteX="133dp"
+                    tools:layout_editor_absoluteY="202dp"
+                    android:layout_marginTop="1dp"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_content">
+
+            <TextView
+                android:id="@+id/tvMouse"
+                android:layout_width="142dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/mouse_command"
+                android:textColor="@color/green_button_yes"
+                android:textSize="@dimen/size_descrition" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/stMouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/shape_switch_button"
+                    android:gravity="center"
+                    android:text="@string/on_off"
+                    android:textColor="@color/green_button_yes"
+                    android:textSize="@dimen/size_descrition"
+                    android:layout_marginBottom="1dp"/>
+
+                <ImageButton
+                    android:id="@+id/ibMouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/selector_button"
+                    app:srcCompat="@drawable/mouse"
+                    tools:layout_editor_absoluteX="133dp"
+                    tools:layout_editor_absoluteY="202dp"
+                    android:layout_marginTop="1dp"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

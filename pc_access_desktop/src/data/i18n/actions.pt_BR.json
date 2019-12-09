@@ -1,0 +1,26 @@
+{
+  "on": ["ligar", "fk_on"],
+
+  "off": ["desligar", "fk_off"],
+
+  "left": ["esquerdo", "esquerda"],
+
+  "right": ["direito", "direita"],
+
+  "middle": ["meio", "centro", "central"],
+
+  "press": ["pressionar", "segurar"],
+
+  "release": ["liberar", "soltar"],
+
+  "clear_word": ["apagar", "apagar palavra", "apagar palavras"],
+
+  "clear_line": ["apagar linha"],
+
+  "select_word": ["selecionar", "selecionar palavra"],
+
+  "select_line": ["selecionar linha"],
+
+  "select_all": ["selecionar tudo"]
+
+}

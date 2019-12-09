@@ -1,0 +1,27 @@
+{
+  "description": ["Veja a lista de ações abaixo, para o idioma ", "{}"],
+
+  "on": ["Ação usada com o comando 'mouse' para ligar o mouse por movimento", "Exemplo: mouse ligar"],
+
+  "off":  ["Ação usada com o comando 'mouse' para desligar o mouse por movimento", "Exemplo: mouse desligar"],
+
+  "left": ["Representa a tecla esquerda do mouse", "Exemplo: botão esquerdo 2"],
+
+  "right": ["Representa a tecla direita do mouse", "Exemplo: botão direito"],
+
+  "middle": ["Representa a tecla central do mouse", "Exemplo: botão centro 2"],
+
+  "press": ["Pressiona um botão do mouse até que seja liberado", "Exemplo: botão esquerdo segurar"] ,
+
+  "release": ["Libera o botão do mouse caso esteja pressionado", "Exemplo: botão direito liberar"],
+
+  "clear_word": ["Ação usada para apagar uma palavra",  "Exemplo: comando apagar palavra"],
+
+  "clear_line": ["Ação para apagar toda uma linha de texto", "Exemplo: comando apagar linha"],
+
+  "select_word": ["Ação para selecionar uma palavra", "Exemplo: comando selecionar"],
+
+  "select_line": ["Ação para selecionar o texto de toda uma linha", "Exemplo: comando selecionar linha"],
+
+  "select_all": ["Ação para selecionar todo o texto de uma pagina", "Exemplo: comando selecionar tudo"]
+}

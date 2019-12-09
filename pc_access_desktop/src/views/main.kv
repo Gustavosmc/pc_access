@@ -1,0 +1,204 @@
+#:import utils kivy.utils
+#:import label kivy.uix.label
+#:import sla kivy.adapters.simplelistadapter
+#:import lv kivy.uix.listview
+#:import labelAbout src.views.main.LabelAbout
+#:import sit src.i18n_read.search_interface_translate
+#:import APPI src.constants.AppInterface
+#:import APPC src.constants.AppColors
+#:import mkt src.text_util.markup_text
+#:import assets_dir src.basedir.PATH_ASSETS
+
+<ButtonMenu@Button>:
+    markup: True
+    background_normal: ""
+	background_color: utils.get_color_from_hex(APPC.MENU_BUTTON_COLOR.value)
+
+<ButtonAction@Button>:
+    markup: True
+    background_normal: ""
+	background_color: utils.get_color_from_hex(APPC.ACTION_BUTTON_COLOR.value)
+
+<ButtonMouse@ButtonAction>
+    StackMouse:
+        id: sl_mouse
+
+
+<ImageMenu@Image>:
+    size_hint_x: None
+    width: 74
+    source: assets_dir + 'images/off.png'
+
+<LabelMenu@Label>:
+    markup: True
+    size_hint_x: None
+    width: 100
+
+<StackMenu@StackLayout>:
+    pos: self.parent.pos
+    size: self.parent.size
+    orientation: 'tb-lr'
+
+<StackMouse@StackMenu>:
+    ImageMenu:
+        source: assets_dir + 'images/mouse.png'
+    LabelMenu:
+        id: lb_mouse
+        text: mkt(sit('connect_mouse'), size=18)
+
+<LabelAbout@Label>
+    markup: True
+    text_size: self.width, None
+    size_hint: 1, None
+
+<ListViewAbout@ScrollView>:
+    id: lv_listabout
+    orientation: "horizontal"
+    size_hint: 1, 1
+    ListView:
+        size_hint: .9, .98
+        pos_hint: {"x": .03, "y": .01}
+        adapter:
+            sla.SimpleListAdapter(
+            data=["{}".format(txt) for txt in app.get_usage_text()],
+            cls=labelAbout)
+
+<CenterLayout@FloatLayout>:
+	background_color: utils.get_color_from_hex('#392383')
+
+<QRLayout@FloatLayout>:
+    size_hint: 1. , 1.
+    pos_hint: {"x":0, "y":0}
+    ButtonMouse:
+        id: bt_mouse
+        size_hint: .25, .1
+        pos_hint: {"x": .0, "y": .89}
+        on_press: app.try_mouse_connect()
+
+
+
+<ConfigLayout@FloatLayout>:
+    size_hint: 1. , 1.
+    pos_hint: {"x":0, "y":0}
+
+    StackLayout:
+        size_hint: 1, .3
+        pos_hint: {"x": 0,"y": .6}
+        Label:
+            markup: True
+            size_hint: .3, .2
+            text: mkt(sit('mouse_speed_description'), color=APPC.MARKUP_CONFIG_DESCRIPTION.value, size=24)
+            pos_hint: {"x": 0, "y": 1}
+            text_size: self.size
+        Slider:
+            id: slr_mouse
+            min: 0
+            max: 100
+            step: 1
+            size_hint: .6, .2
+            pos_hint: {"x": 0, "y": 1}
+            orientation: 'horizontal'
+            on_value: root.on_mouse_value()
+        Label:
+            id: lb_show_mouse
+            markup: True
+            size_hint: .1, .2
+            text: "0"
+            pos_hint: {"x": 0, "y": 1}
+    StackLayout:
+        size_hint: 1, .3
+        pos_hint: {"x": 0,"y": .5}
+        Label:
+            markup: True
+            size_hint: .5, .2
+            text: mkt(sit('mouse_auto_connect_description'), color=APPC.MARKUP_CONFIG_DESCRIPTION.value, size=24)
+            pos_hint: {"x": 0, "y": 1}
+            text_size: self.size
+        Label:
+            size_hint: .4, .3
+            pos_hint: {"x": 0, "y": 1}
+        Switch:
+            id: swt_auto_connect
+            size_hint: .1, .2
+            pos_hint: {"x": 0, "y": 1}
+
+
+
+<ConnectedLayout@FloatLayout>
+    size_hint: 1., 1.
+    pos_hint: {"x":0, "y":0}
+
+    ButtonAction:
+        id: bt_disconnect
+        size_hint: .25, .1
+        pos_hint: {"x": .75, "y": .89}
+        on_press: root.disconnect()
+        StackMenu:
+            ImageMenu:
+            LabelMenu:
+                id: lb_disconnect
+                text: mkt(sit('disconnect'), size=18)
+
+    ButtonMouse:
+        id: bt_mouse
+        size_hint: .25, .1
+        pos_hint: {"x": .0, "y": .89}
+        on_press: app.try_mouse_connect()
+        StackMouse:
+
+<MenuPanel@BoxLayout>
+	BoxLayout:
+	    spacing: 1.5
+		orientation: 'horizontal'
+		ButtonMenu:
+		    id: bt_about
+		    on_press: root.show_about()
+            StackMenu:
+                ImageMenu:
+                    source: assets_dir + 'images/book.png'
+                LabelMenu:
+                    id: lb_about
+                    text: mkt(sit(APPI.ABOUT.value), size=18)
+
+		ButtonMenu:
+		    id: bt_settings
+		    on_press: root.show_config()
+            StackMenu:
+                ImageMenu:
+                    source: assets_dir + 'images/settings.png'
+                LabelMenu:
+                    id: lb_settings
+                    text: mkt(sit(APPI.SETTINGS.value), size=18)
+
+		ButtonMenu:
+		    id: bt_connect
+		    on_press: app.start_server()
+            StackMenu:
+                ImageMenu:
+                    source: assets_dir + 'images/qr-code.png'
+                LabelMenu:
+                    id: lb_connect
+                    text: mkt(sit(APPI.CONNECTION.value), size=18)
+
+		ButtonMenu:
+		    id: bt_exit
+		    on_press: root.stop_app()
+            StackMenu:
+                ImageMenu:
+                    source: assets_dir + 'images/exit.png'
+                LabelMenu:
+                    id: lb_exit
+                    text: mkt(sit(APPI.EXIT.value), size=18)
+
+<MainLayout@BoxLayout>:
+    id: lt_main
+    orientation: "vertical"
+    MenuPanel:
+        id: lt_menu
+        size_hint: 1, .1
+        pos: 0, root.height * .9
+    CenterLayout:
+        id: lt_center
+        pos_hint: {"x": 0, "y": 0}
+        size_hint: 1, .9
+

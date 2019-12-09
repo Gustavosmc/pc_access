@@ -1,0 +1,12 @@
+{
+  "type": ["digitar", "digite", "escreva", "escrever"],
+
+  "button": ["botão", "clique", "clicar"],
+
+  "mouse": ["mouse", "fk_mouse"],
+
+  "key": ["tecla", "teclado", "teclar", "tecle"],
+
+  "command": ["comando", "command", "comanda"]
+
+}

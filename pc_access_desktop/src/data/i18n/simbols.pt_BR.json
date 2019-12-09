@@ -1,0 +1,155 @@
+{
+  "period": ["ponto final", "ponto"],
+
+  "exclamation_mark": ["exclamação"],
+
+  "question_mark": ["interrogação"],
+
+  "underscore": ["traço inferior", "underscore"],
+
+  "trace": ["traço"],
+
+  "alt" : ["alt", "alternar"],
+
+  "alt_gr": ["alt_gr", "alternar gráfico"],
+
+  "alt_l": ["alt_l", "alt esquerdo", "alternar esquerdo"],
+
+  "alt_r": ["alt_r", "alt direito", "alternar direito"],
+
+  "backspace": ["backspace", "apagar", "retornar"],
+  
+  "caps_lock": ["fixa", "trava maiúscula", "caps lock", "caps_lock"],
+
+  "cmd": ["cmd", "comando", "comanda", "command"],
+
+  "cmd_l": ["cmd_l", "comando esquerdo", "cmd esquerdo"],
+
+  "cmd_r": ["cmd_r", "comando direito", "cmd direito"],
+
+  "ctrl": ["ctrl", "control", "controle"],
+
+  "ctrl_l": ["ctrl_l", "control esquerdo", "controle esquerdo"],
+
+  "ctrl_r": ["ctrl_r", "control direito", "controle direito"],
+
+  "delete": ["delete", "deleta", "del"],
+
+  "down": ["down", "abaixo", "baixo"],
+
+  "end": ["end", "final", "fim"],
+
+  "enter": ["enter", "entrar", "entra"],
+
+  "esc" : ["esc"],
+
+  "home": ["home"],
+
+  "insert": ["insert", "inserir"],
+
+  "left" : ["left", "esquerdo", "esquerda"],
+
+  "menu" : ["menu"],
+
+  "num_lock" : ["numerico", "num_lock", "num lock"],
+
+  "page_down" : ["page_down", "page down"],
+
+  "page_up" : ["page_up", "page up"],
+
+  "pause": ["pause", "pausa", "pausar"],
+
+  "print_screen" : ["print_screen", "print screen", "print"],
+
+  "right" : ["right", "direito", "direita"],
+
+  "scroll_lock" : ["scroll_lock", "scroll lock"],
+
+  "shift" : ["shift"],
+
+  "shift_l": ["shift_l", "shift esquerdo"],
+
+  "shift_r": ["shift_r", "shift direito"],
+
+  "space": ["space", "espaço"],
+
+  "tab": ["tab"],
+
+  "up" : ["up", "subir", "acima"],
+
+  "f1": ["f1"],
+
+  "f2": ["f2"],
+
+  "f3": ["f3"],
+
+  "f4": ["f4"],
+
+  "f5": ["f5"],
+
+  "f6": ["f6"],
+
+  "f7": ["f7"],
+
+  "f8": ["f8"],
+
+  "f9": ["f9"],
+
+  "f10": ["f10"],
+
+  "f11": ["f11"],
+
+  "f12": ["f12"],
+
+  "a": ["a", "letra a"],
+
+  "b": ["b", "letra b"],
+
+  "c": ["c", "letra c"],
+
+  "d": ["d", "de", "dê", "letra d"],
+
+  "e": ["e", "é", "letra e"],
+
+  "f": ["f", "letra f"],
+
+  "g": ["g", "letra g"],
+
+  "h": ["h", "letra h"],
+
+  "i": ["i", "letra i"],
+
+  "j": ["j", "letra j"],
+
+  "k": ["k", "letra k"],
+
+  "l": ["l", "letra l"],
+
+  "m": ["m", "letra m"],
+
+  "n": ["n", "letra n"],
+
+  "o": ["o", "letra o"],
+
+  "p": ["p", "letra p"],
+
+  "q": ["q", "letra q"],
+
+  "r": ["r", "letra r"],
+
+  "s": ["s", "letra s"],
+
+  "t": ["t", "letra t"],
+
+  "u": ["u", "letra u"],
+
+  "v": ["v", "letra v"],
+
+  "x": ["x", "letra x"],
+
+  "y": ["y", "letra y"],
+
+  "z": ["z", "letra z"]
+
+
+}

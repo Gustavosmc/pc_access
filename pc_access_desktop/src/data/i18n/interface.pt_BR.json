@@ -1,0 +1,30 @@
+{
+  "connect_mouse" : "Conectar Mouse",
+
+  "about" : "Como Usar",
+
+  "settings" : "Definições",
+
+  "connection" : "Conexão",
+
+  "disconnect" : "Desconectar",
+
+  "exit" : "Sair",
+
+  "yes" : "Sim",
+
+  "no" : "Não",
+
+  "title_exit_popup" : "Deseja realmente fechar o programa?",
+
+  "title_disconnect_popup" : "Desconectar agora?",
+
+  "title_qrcode": "Leia o qrcode com o app para estabelecer a conexão",
+
+  "title_connected": "Você está conectado!",
+
+  "mouse_speed_description": "Velocidade do Mouse",
+
+  "mouse_auto_connect_description": "Conectar o Mouse Automaticamente"
+
+}

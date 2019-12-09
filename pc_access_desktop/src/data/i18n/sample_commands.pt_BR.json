@@ -1,0 +1,14 @@
+{
+  "description" : ["Veja a lista dos comandos principais abaixo, para o idioma", "{}"],
+
+  "type": ["Escreve em um campo de texto o que foi falado", "Exemplo: digite o rato roeu a roupa do rei de roma"],
+
+  "button": ["Referenciar os botões do mouse", "Exemplo: botão <esquerdo, meio, direito> <N vezes> | botão esquerdo 2"],
+
+  "mouse": ["Liga/Desliga mouse por movimento", "Exemplo: mouse ligar | mouse desligar"],
+
+  "key": ["Representa o pressionar de uma ou várias teclas . Veja todas em simbolos", "Exemplo: tecla control+alt+del | tecla backspace"],
+
+  "command": ["Representa um comando predeterminado. Veja todas em acões", "Exemplo: comando <ação> | comando apagar linha"]
+
+}

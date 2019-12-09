@@ -1,0 +1,13 @@
+
+sudo apt-get update
+sudo apt-get install python3
+sudo apt-get install python3-pi
+sudo apt install python3-smbus
+pip install mpu6050-raspberrypi
+
+1) sudo raspi-config, and turned on I2C in the Interface options
+2) sudo apt-get install python3-smbus
+3) sudo apt-get install i2c-tools
+(at this point, it complained that "no module name RPi" in code that uses the RPi I/O)
+4) sudo apt-get dist-upgrade (a blogger suggested this; it didn't solve the "no module RPi" problem however, but changed dates in /usr/local/lib)
+5) sudo apt-get install python3-RPi.GPIO (this solved the RPi problem, and the code now runs as in the "old" card). 

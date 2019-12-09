@@ -1,0 +1,133 @@
+{
+  "description" : ["Veja a lista de simbolos abaixo, para o idioma", "{}"],
+
+  "period": ["Digitar ponto final", "Exemplo: tecla ponto final"],
+
+  "exclamation_mark": ["Digitar exclamação", "Exemplo: tecla exclamação"],
+
+  "question_mark": ["Digitar interrogação", "Exemplo: tecla interrogação"],
+
+  "underscore": ["Digitar traço inferior", "Exemplo: tecla underscore"],
+
+  "trace": ["Digitar traço", "Exemplo: tecla traço"],
+
+  "alt" : ["Pressionar a tecla alt", "Exemplo: tecla alt + f4"],
+
+  "alt_gr": ["Usar caracteres de terceiro grau", "Exemplo: tecla alternar gráfico + w"],
+
+  "alt_l": ["Usar alt do lado esquerdo", "Exemplo: teclar alt esquerdo F1 "],
+
+  "alt_r": ["Usar alt do lado direito", "Exemplo: tecle alt direito + F5"],
+
+  "backspace": ["Retroceder um caracter", "Exemplo: teclado backspace | tecle backspace"],
+
+  "caps_lock": ["Ligar e desligar caixa alta (maiusculo, minusculo) ", "Exemplo: tecla caps_lock"],
+
+  "cmd": ["Tecla control em sistemas MacOS", "Exemplo: tecle comando E | tecla cmd+E"],
+
+  "cmd_l": ["Tecla comando lado esquerdo", "Exemplo: tecle comando esquerdo + D"],
+
+  "cmd_r": ["Tecla comando lado direito", "Exemplo: cmd direito + F"],
+
+  "ctrl": ["Tecla control", "Exemplo: tecle controle D"],
+
+  "ctrl_l": ["Tecla control lado esquerdo", "Exemplo: tecla controle esquerdo + enter"],
+
+  "ctrl_r": ["Tecla control lado direito", "Exemplo: teclado controle direito + F4"],
+
+  "delete": ["Tecla delete","Exemplo: tecla del | tecle deletar | tecla delete"],
+
+  "down": ["Tecla seta para baixo", "Exemplo: tecle abaixo | tecla baixo"],
+
+  "end": ["Tecla end, ir para final frases", "Exemplo: tecla end | teclado final"],
+
+  "enter": ["Tecla enter", "Exemplo: tecle enter | tecla entrar"],
+
+  "esc" : ["Tecla esc", "Exemplo: teclado esc"],
+
+  "home": ["Tecla home", "Exemplo: tecle home"],
+
+  "insert": ["Tecla insert", "Exemplo: tecla inserir"],
+
+  "left" : ["Seta esquerda", "Exemplo: teclado esquerda | teclado esquerdo"],
+
+  "menu" : ["Tecla para abrir o menu", "Exemplo: tecle menu"],
+
+  "num_lock" : ["Tecla liga/desliga teclado numerico", "Exemplo: tecle numerico"],
+
+  "page_down" : ["Tecla page down, descer paginas", "Exemplo: tecla page down"],
+
+  "page_up" : ["Tecla page_up, subir paginas", "Exemplo: tecle page up"],
+
+  "pause": ["Tecla pause", "Exemplo: teclado pausa"],
+
+  "print_screen" : ["Tecla para tirar prints da tela", "Exemplo: tecla print"],
+
+  "right" : ["Seta lado direito", "Exemplo: tecle direito"],
+
+  "scroll_lock" : ["Tecla scroll_lock", "Exemplo: teclado scroll lock"],
+
+  "shift" : ["Tecla shift", "Exemplo: tecla shift"],
+
+  "shift_l": ["Tecla shift_l, esquerdo", "Exemplo: tecla shift esquerdo"],
+
+  "shift_r": ["Tecla shift_r, direito", "Exemplo: teclado shift direito"],
+
+  "space": ["Tecla space, para adicionar espaçamento", "Exemplo: tecle espaço | tecla space"],
+
+  "tab": ["Tecla tab, tabulações", "Exemplo: tecla tab"],
+
+  "up" : ["Seta acima", "Exemplo: teclado acima"],
+
+  "f1": ["Tecla f1", "Exemplo: tecle control + f1"],
+
+  "f2": ["Tecla f2", "Exemplo: tecle control f2"],
+
+  "f3": ["Tecla f3", "Exemplo: tecle controle + f3"],
+
+  "f4": ["Tecla f4", "Exemplo: tecla alt + f4"],
+
+  "f5": ["Tecla f5", "Exemplo: tecle control f5"],
+
+  "f6": ["Tecla f6", "Exemplo: tecle control + f6"],
+
+  "f7": ["Tecla f7", "Exemplo: tecle control + f7"],
+
+  "f8": ["Tecla f8", "Exemplo: tecle control + f8"],
+
+  "f9": ["Tecla f9", "Exemplo: tecle control + f9"],
+
+  "f10": ["Tecla f10", "Exemplo: teclado shift + f10"],
+
+  "f11": ["Tecla f11", "Exemplo: tecle shift + f11"],
+
+  "f12": ["Tecla f12", "Exemplo: tecle control + f12"],
+
+  "a": ["Tecla a", "Exemplo: tecle control + letra a"],
+  "b": ["Tecla b", "Exemplo: teclado letra b"],
+  "c": ["Tecla c", "Exemplo: tecla control letra c"],
+  "d": ["Tecla d", "Exemplo: tecle de"],
+  "e": ["Tecla e", "Exemplo: tecla letra e"],
+  "f": ["Tecla f", "Exemplo: tecla letra f"],
+  "g": ["Tecla g", "Exemplo: tecla letra g"],
+  "h": ["Tecla h", "Exemplo: tecla letra h"],
+  "i": ["Tecla i", "Exemplo: tecla letra i"],
+  "j": ["Tecla j", "Exemplo: tecla letra j"],
+  "k": ["Tecla k", "Exemplo: tecla letra k"],
+  "l": ["Tecla l", "Exemplo: tecla letra l"],
+  "m": ["Tecla m", "Exemplo: tecla letra m"],
+  "n": ["Tecla n", "Exemplo: tecla letra n"],
+  "o": ["Tecla o", "Exemplo: tecla letra o"],
+  "p": ["Tecla p", "Exemplo: tecla letra p"],
+  "q": ["Tecla q", "Exemplo: tecla letra q"],
+  "r": ["Tecla r", "Exemplo: tecla letra r"],
+  "s": ["Tecla s", "Exemplo: tecla letra s"],
+  "t": ["Tecla t", "Exemplo: tecla letra t"],
+  "u": ["Tecla u", "Exemplo: tecla letra u"],
+  "v": ["Tecla v", "Exemplo: tecla letra v"],
+  "x": ["Tecla x", "Exemplo: tecla letra x"],
+  "y": ["Tecla y", "Exemplo: tecla letra y"],
+  "z": ["Tecla z", "Exemplo: tecla letra z"]
+
+
+}

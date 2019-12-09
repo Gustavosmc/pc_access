@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_button_connect_activated" android:state_activated="true" /> <!-- ativado -->
+    <item android:drawable="@drawable/shape_button_connect_focused" android:state_focused="true" /> <!-- com foco -->
+    <item android:drawable="@drawable/shape_button_connect" /> <!-- normal-->
+</selector>

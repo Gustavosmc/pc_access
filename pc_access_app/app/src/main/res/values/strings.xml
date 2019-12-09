@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PcAccess</string>
+    <string name="action_settings">Settings</string>
+    <string name="permission_camera_rationale">Para detecção é necessário acesso a câmera</string>
+    <string name="no_camera_permission">Aplicação não pode ser executada, pois não possui acesso a câmera.</string>
+    <string name="low_storage_error">A memória do seu dispositivo esta baixa</string>
+    <string name="text_cam">Leia o QR code de conexão</string>
+    <string name="ok">Ok</string>
+    <string name="connect">Conectar</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="voice_command">COMANDO POR VOZ</string>
+    <string name="mouse_command">MOUSE POR SENSOR</string>
+    <string name="on_off">LIG/DESL</string>
+</resources>
