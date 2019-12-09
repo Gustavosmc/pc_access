@@ -25,7 +25,7 @@ python-xlib==0.23
 python3-xlib==0.15
 PyTweening==1.0.3
 qrcode==6.0
-requests==2.19.1
+requests==2.20.0
 rsa==3.4.2
 six==1.11.0
 uritemplate==3.0.0
